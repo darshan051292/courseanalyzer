@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href= "{{ url_for('static', filename='css/style.css') }}" >
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <div class = "container">
+    <h1>Course Analyzer</h1>
+        <p class = "details">Course analyzer helps you in analyzing which course from Ineuron best suits your learning requirement !!</p>
+    </div>
+    <h2>Please enter the course you would like to research about!</h2>
+    <div class = "query">
+        <form action="\result" method="post">
+            <label for="course" style="font: 20px 'Fauna One', serif; color: #2F4F4F">Course name:</label>
+            <input list="courses" name = 'course' id = 'course' autofocus>
+                <datalist id = 'courses'>
+                    <option value = "Python">
+                    <option value = "Full Stack Data Science">
+                    <option value = "Power BI">
+                    <option value = "SQL">
+                    <option value = "Big data">
+                    <option value = "Stats">
+                    <option value = "Deep Learning">
+                    <option value = "NLP">
+                    <option value = "Tableau">
+                </option>
+                </datalist>
+            <input type="submit" value="search" name="search" id="search" style="background-color: rgb(108,59,89); color: #FFFFFF;">
+        </form>
+    </div>
+</body>
+</html>

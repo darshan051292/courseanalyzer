@@ -1,0 +1,50 @@
+body{
+    background-color: #2F4F4F
+}
+
+div{
+    background-color: #FFFFFF;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 800px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(108,59,89);
+}
+
+p{
+    font: 24px 'Fauna One', serif;
+}
+
+.query{
+    margin: auto;
+    margin-top : 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(108,59,89);
+}
+
+h1{
+    font: 40px Cinzel, serif;
+    color: #2F4F4F;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+h2{
+    margin-top : 50px;
+    color: #FFFFFF;
+    text-align: center;
+}

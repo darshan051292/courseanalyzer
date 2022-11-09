@@ -5,6 +5,15 @@ import logging
 import mysql.connector as conn
 from flask_cors import CORS,cross_origin
 
+import os
+
+chrome_options = webdriver.ChromeOptions()
+chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--no-sandbox")
+
+
 mylist = []
 mydb = conn.MySQLConnection()
 
@@ -62,7 +71,7 @@ def resultfunction():
     courses = None
     browser = None
     beautiful_course_html = None
-    path = r'.\chromedriver.exe'
+
     try:
         if request.method == 'POST':
             search = get_course_name()
@@ -70,7 +79,7 @@ def resultfunction():
             search_link = "https://ineuron.ai/category/" + formatted_search + "/"
             logging.info(search_link)
             try:
-                browser = webdriver.Chrome(executable_path=path)
+                browser = webdriver.Chrome(executable_path=r"C:\Users\Darshan\PycharmProjects\coursescraper\chromedriver.exe")
                 browser.get(search_link)
                 courses_html = browser.page_source
             except Exception as e:
@@ -183,4 +192,4 @@ def resultfunction():
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8002)
+    app.run()

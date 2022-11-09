@@ -15,6 +15,7 @@ logging.basicConfig(filename="scrapper.log", level=logging.INFO, format="%(ascti
 # helper function
 def get_course_name():
     search = request.form['course']
+
     return search
 
 
@@ -59,6 +60,7 @@ def resultfunction():
     courses = None
     browser = None
     beautiful_course_html = None
+    path = r'C:\Users\Darshan\PycharmProjects\coursescraper\chromedriver.exe'
     try:
         if request.method == 'POST':
             search = get_course_name()
@@ -66,7 +68,7 @@ def resultfunction():
             search_link = "https://ineuron.ai/category/" + formatted_search + "/"
             logging.info(search_link)
             try:
-                browser = webdriver.Chrome()
+                browser = webdriver.Chrome(executable_path=path)
                 browser.get(search_link)
                 courses_html = browser.page_source
             except Exception as e:

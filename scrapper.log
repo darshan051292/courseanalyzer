@@ -4685,3 +4685,150 @@ TypeError: The view function did not return a valid response. The function eithe
 2022-11-07 16:49:07,211 INFO inside else
 2022-11-07 16:49:07,215 INFO inside finally
 2022-11-07 16:49:09,266 INFO 127.0.0.1 - - [07/Nov/2022 16:49:09] "[37mPOST /result HTTP/1.1[0m" 200 -
+2022-11-09 10:12:57,163 INFO  * Running on http://127.0.0.1:8002/ (Press CTRL+C to quit)
+2022-11-09 10:13:22,781 INFO 127.0.0.1 - - [09/Nov/2022 10:13:22] "[37mGET / HTTP/1.1[0m" 200 -
+2022-11-09 10:13:22,948 INFO 127.0.0.1 - - [09/Nov/2022 10:13:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-11-09 10:13:23,961 INFO 127.0.0.1 - - [09/Nov/2022 10:13:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-09 10:13:33,109 INFO https://ineuron.ai/category/DEEP-LEARNING/
+2022-11-09 10:13:33,484 INFO Exception raised during beautification of html code:object of type 'NoneType' has no len()
+2022-11-09 10:13:33,484 INFO Exception raised'NoneType' object is not iterable
+2022-11-09 10:13:33,484 ERROR Exception on /result [POST]
+Traceback (most recent call last):
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2022-11-09 10:13:33,484 INFO 127.0.0.1 - - [09/Nov/2022 10:13:33] "[35m[1mPOST /result HTTP/1.1[0m" 500 -
+2022-11-09 10:29:16,384 INFO  * Running on http://127.0.0.1:8002/ (Press CTRL+C to quit)
+2022-11-09 10:30:02,902 INFO 127.0.0.1 - - [09/Nov/2022 10:30:02] "[37mGET / HTTP/1.1[0m" 200 -
+2022-11-09 10:30:07,373 INFO https://ineuron.ai/category/DEEP-LEARNING/
+2022-11-09 10:30:09,781 INFO Exception raised during beautification of html code:object of type 'NoneType' has no len()
+2022-11-09 10:30:09,781 INFO Exception raised'NoneType' object is not iterable
+2022-11-09 10:30:11,896 ERROR Exception on /result [POST]
+Traceback (most recent call last):
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\Darshan\anaconda3\envs\coursescraper\lib\site-packages\flask\app.py", line 2097, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2022-11-09 10:30:11,896 INFO 127.0.0.1 - - [09/Nov/2022 10:30:11] "[35m[1mPOST /result HTTP/1.1[0m" 500 -
+2022-11-09 10:31:03,855 INFO 127.0.0.1 - - [09/Nov/2022 10:31:03] "[37mGET / HTTP/1.1[0m" 200 -
+2022-11-09 10:31:05,431 INFO https://ineuron.ai/category//
+2022-11-09 10:31:12,753 INFO 127.0.0.1 - - [09/Nov/2022 10:31:12] "[37mPOST /result HTTP/1.1[0m" 200 -
+2022-11-09 10:31:18,049 INFO 127.0.0.1 - - [09/Nov/2022 10:31:18] "[37mGET / HTTP/1.1[0m" 200 -
+2022-11-09 10:31:23,507 INFO https://ineuron.ai/category/DEEP-LEARNING/
+2022-11-09 10:31:35,059 INFO Finding price of/course/JAX
+2022-11-09 10:31:35,059 INFO Could not find price of course:/course/JAX
+2022-11-09 10:31:35,059 INFO Finding course_features of
+2022-11-09 10:31:35,059 INFO Course features are:
+2022-11-09 10:31:35,059 INFO Roadmap
+2022-11-09 10:31:35,059 INFO Interview Questions and their approach discussions
+2022-11-09 10:31:35,059 INFO Learn solving Scenario-based questions
+2022-11-09 10:31:35,059 INFO Improve your skills and knowledge by solving different types of questions
+2022-11-09 10:31:35,059 INFO Assignments
+2022-11-09 10:31:35,067 INFO Quizzes
+2022-11-09 10:31:35,067 INFO Challenges
+2022-11-09 10:31:35,067 INFO Completion certificate
+2022-11-09 10:31:35,067 INFO Finding course introduction/course/JAX
+2022-11-09 10:31:35,067 INFO Course introduction is:JAX
+2022-11-09 10:31:35,067 INFO Finding course_syllabus of/course/JAX
+2022-11-09 10:31:35,067 INFO Course syllabus are:
+2022-11-09 10:31:35,067 INFO Basic understanding of digital marketing tools
+2022-11-09 10:31:35,067 INFO Search engine optimization techniques
+2022-11-09 10:31:35,067 INFO How to work on Google ads
+2022-11-09 10:31:35,067 INFO Social media marketing on various platforms
+2022-11-09 10:31:35,067 INFO Email marketing using Mailchimp
+2022-11-09 10:31:35,067 INFO Content creations like written, graphics and video
+2022-11-09 10:31:35,067 INFO Finding course requirements of/course/JAX
+2022-11-09 10:31:35,067 INFO Course requirements are:
+2022-11-09 10:31:35,067 INFO Understanding of basic marketing terminologies
+2022-11-09 10:31:35,067 INFO A system with internet connection
+2022-11-09 10:31:35,067 INFO Dedication
+2022-11-09 10:31:35,067 INFO Finding course mentor of/course/JAX
+2022-11-09 10:31:35,076 INFO Course mentors are:
+2022-11-09 10:31:35,076 INFO Boktiar Ahmed Bappy
+2022-11-09 10:31:38,382 INFO Finding price of/course/PyTorch-Basics
+2022-11-09 10:31:38,382 INFO Could not find price of course:/course/PyTorch-Basics
+2022-11-09 10:31:38,382 INFO Finding course_features of
+2022-11-09 10:31:38,382 INFO Course features are:
+2022-11-09 10:31:38,382 INFO Learning of different concepts of PyTorch framework 
+
+2022-11-09 10:31:38,382 INFO Self Paced Videos
+2022-11-09 10:31:38,382 INFO Completion Certificate
+2022-11-09 10:31:38,382 INFO Finding course introduction/course/PyTorch-Basics
+2022-11-09 10:31:38,390 INFO Course introduction is:This program is meant to give you the basics till an advanced understanding of one of the most popular deep learning python frameworks - PyTorch. Course curriculum includes concepts about the PyTorch framework, tutorials, and much more!
+2022-11-09 10:31:38,390 INFO Finding course_syllabus of/course/PyTorch-Basics
+2022-11-09 10:31:38,393 INFO Course syllabus are:
+2022-11-09 10:31:38,393 INFO Basic concepts
+2022-11-09 10:31:38,393 INFO Installation
+2022-11-09 10:31:38,393 INFO PyTorch usecases
+2022-11-09 10:31:38,393 INFO Apply PyTorch to implement DL or ML algos from scratch
+2022-11-09 10:31:38,393 INFO Finding course requirements of/course/PyTorch-Basics
+2022-11-09 10:31:38,397 INFO Course requirements are:
+2022-11-09 10:31:38,397 INFO Interest to learn
+2022-11-09 10:31:38,397 INFO Deep learning ANN course
+2022-11-09 10:31:38,397 INFO Deep learning concepts
+2022-11-09 10:31:38,397 INFO Decent internet connection
+2022-11-09 10:31:38,397 INFO Finding course mentor of/course/PyTorch-Basics
+2022-11-09 10:31:38,401 INFO Course mentors are:
+2022-11-09 10:31:38,401 INFO Sunny Bhaveen Chandra
+2022-11-09 10:31:42,456 INFO Finding price of/course/Deep-Learning-Foundations
+2022-11-09 10:31:42,457 INFO Could not find price of course:/course/Deep-Learning-Foundations
+2022-11-09 10:31:42,457 INFO Finding course_features of
+2022-11-09 10:31:42,457 INFO Course features are:
+2022-11-09 10:31:42,457 INFO Course material
+2022-11-09 10:31:42,457 INFO Course resources
+2022-11-09 10:31:42,457 INFO On demand recorded videos
+2022-11-09 10:31:42,457 INFO Practical exercises
+2022-11-09 10:31:42,457 INFO Quizzes
+2022-11-09 10:31:42,457 INFO Assignments
+2022-11-09 10:31:42,457 INFO Course completion certificate
+2022-11-09 10:31:42,457 INFO Finding course introduction/course/Deep-Learning-Foundations
+2022-11-09 10:31:42,465 INFO Course introduction is:Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks. It is a function that imitates the workings of the human brain in processing data and creating patterns for use in decision making. Learn Deep Learning, Transfer Learning and Neural Networks using the latest frameworks. Become a Deep Learning Guru!
+2022-11-09 10:31:42,465 INFO Finding course_syllabus of/course/Deep-Learning-Foundations
+2022-11-09 10:31:42,465 INFO Course syllabus are:
+2022-11-09 10:31:42,465 INFO Foundations of Deep Learning
+2022-11-09 10:31:42,465 INFO Artificial Neural Networks
+2022-11-09 10:31:42,465 INFO Convolution Neural networks
+2022-11-09 10:31:42,465 INFO Natural Language Processing
+2022-11-09 10:31:42,465 INFO RNN
+2022-11-09 10:31:42,465 INFO LSTM
+2022-11-09 10:31:42,465 INFO Finding course requirements of/course/Deep-Learning-Foundations
+2022-11-09 10:31:42,465 INFO Course requirements are:
+2022-11-09 10:31:42,465 INFO System with Internet Connection
+2022-11-09 10:31:42,465 INFO Interest to learn
+2022-11-09 10:31:42,465 INFO Dedication
+2022-11-09 10:31:42,465 INFO Finding course mentor of/course/Deep-Learning-Foundations
+2022-11-09 10:31:42,473 INFO Course mentors are:
+2022-11-09 10:31:42,473 INFO Krish Naik
+2022-11-09 10:31:44,924 INFO Finding price of/course/ONNX
+2022-11-09 10:31:44,924 INFO Could not find price of course:/course/ONNX
+2022-11-09 10:31:44,924 INFO Finding course_features of
+2022-11-09 10:31:44,932 INFO Course features are:
+2022-11-09 10:31:44,932 INFO Could not find course features of course:/course/ONNX
+2022-11-09 10:31:44,932 INFO Finding course introduction/course/ONNX
+2022-11-09 10:31:44,935 INFO Course introduction is:The Open Neural Network Exchange (ONNX) is a free ecosystem that allows AI developers to select the best tools for their projects as they progress. ONNX is a free, open-source format for AI models, including deep learning and classical machine learning.
+2022-11-09 10:31:44,936 INFO Finding course_syllabus of/course/ONNX
+2022-11-09 10:31:44,936 INFO Course syllabus are:
+2022-11-09 10:31:44,936 INFO Could not find course syllabus of course:/course/ONNX
+2022-11-09 10:31:44,936 INFO Finding course requirements of/course/ONNX
+2022-11-09 10:31:44,943 INFO Course requirements are:
+2022-11-09 10:31:44,943 INFO Could not find course requirements of course:/course/ONNX
+2022-11-09 10:31:44,943 INFO Finding course mentor of/course/ONNX
+2022-11-09 10:31:44,943 INFO Course mentors are:
+2022-11-09 10:31:44,943 INFO Boktiar Ahmed Bappy
+2022-11-09 10:31:45,165 INFO inside if block
+2022-11-09 10:31:45,261 INFO created cursor
+2022-11-09 10:31:45,278 INFO created database 
+2022-11-09 10:31:45,290 INFO inside else
+2022-11-09 10:31:45,298 INFO inside finally
+2022-11-09 10:31:47,330 INFO 127.0.0.1 - - [09/Nov/2022 10:31:47] "[37mPOST /result HTTP/1.1[0m" 200 -

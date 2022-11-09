@@ -62,7 +62,7 @@ def resultfunction():
     courses = None
     browser = None
     beautiful_course_html = None
-    path = r'C:\Users\Darshan\PycharmProjects\coursescraper\chromedriver.exe'
+    path = r'.\chromedriver.exe'
     try:
         if request.method == 'POST':
             search = get_course_name()

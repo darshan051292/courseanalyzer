@@ -181,4 +181,4 @@ def resultfunction():
 
 
 if __name__ == '__main__':
-    app.run(port=8002)
+    app.run()

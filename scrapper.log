@@ -4832,3 +4832,266 @@ TypeError: The view function did not return a valid response. The function eithe
 2022-11-09 10:31:45,290 INFO inside else
 2022-11-09 10:31:45,298 INFO inside finally
 2022-11-09 10:31:47,330 INFO 127.0.0.1 - - [09/Nov/2022 10:31:47] "[37mPOST /result HTTP/1.1[0m" 200 -
+2022-11-09 10:59:28,623 INFO  * Running on http://127.0.0.1:8002/ (Press CTRL+C to quit)
+2022-11-09 10:59:44,297 INFO 127.0.0.1 - - [09/Nov/2022 10:59:44] "[37mGET / HTTP/1.1[0m" 200 -
+2022-11-09 10:59:51,041 INFO https://ineuron.ai/category/NLP/
+2022-11-09 11:00:01,454 INFO Finding price of/course/NLP-Crash-Course
+2022-11-09 11:00:01,464 INFO Could not find price of course:/course/NLP-Crash-Course
+2022-11-09 11:00:01,464 INFO Finding course_features of
+2022-11-09 11:00:01,464 INFO Course features are:
+2022-11-09 11:00:01,473 INFO Quizzes
+2022-11-09 11:00:01,473 INFO Assignments
+2022-11-09 11:00:01,473 INFO Hands-on practicals
+2022-11-09 11:00:01,473 INFO Downloadable resources
+2022-11-09 11:00:01,473 INFO Completion certificate
+2022-11-09 11:00:01,473 INFO Finding course introduction/course/NLP-Crash-Course
+2022-11-09 11:00:01,481 INFO Course introduction is:Natural language processing (NLP) is one of the artificial intelligence's most essential and helpful application fields. As new methodologies and toolsets combine with ever-increasing data availability, NLP is rapidly evolving. In this course, you'll learn about the core concepts of natural language processing (NLP) and how it applies to current and new technologies. You will obtain a comprehensive understanding of contemporary neural network techniques for linguistic data processing. You'll be able to progress from word representation and syntactic processing to creating and executing complicated deep learning models for question answering, machine translation, and other language understanding problems by mastering cutting-edge methodologies.
+2022-11-09 11:00:01,481 INFO Finding course_syllabus of/course/NLP-Crash-Course
+2022-11-09 11:00:01,481 INFO Course syllabus are:
+2022-11-09 11:00:01,481 INFO NLP important topics
+2022-11-09 11:00:01,481 INFO Transfer learning mechanism
+2022-11-09 11:00:01,481 INFO Real-time project implementation
+2022-11-09 11:00:01,489 INFO Finding course requirements of/course/NLP-Crash-Course
+2022-11-09 11:00:01,489 INFO Course requirements are:
+2022-11-09 11:00:01,497 INFO Basic knowledge of Python programming
+2022-11-09 11:00:01,497 INFO A system with stable internet connection
+2022-11-09 11:00:01,497 INFO Your dedication
+2022-11-09 11:00:01,497 INFO Finding course mentor of/course/NLP-Crash-Course
+2022-11-09 11:00:01,505 INFO Course mentors are:
+2022-11-09 11:00:01,505 INFO Sudhanshu Kumar
+2022-11-09 11:00:03,428 INFO Finding price of/course/NLP-Foundations
+2022-11-09 11:00:03,428 INFO Could not find price of course:/course/NLP-Foundations
+2022-11-09 11:00:03,437 INFO Finding course_features of
+2022-11-09 11:00:03,439 INFO Course features are:
+2022-11-09 11:00:03,439 INFO Course material
+2022-11-09 11:00:03,439 INFO Course resources
+2022-11-09 11:00:03,439 INFO On demand recorded videos
+2022-11-09 11:00:03,439 INFO Practical exercises
+2022-11-09 11:00:03,439 INFO Quizzes
+2022-11-09 11:00:03,439 INFO Assignments
+2022-11-09 11:00:03,439 INFO Course completion certificate
+2022-11-09 11:00:03,439 INFO Finding course introduction/course/NLP-Foundations
+2022-11-09 11:00:03,447 INFO Course introduction is:NLP Community Class
+2022-11-09 11:00:03,447 INFO Finding course_syllabus of/course/NLP-Foundations
+2022-11-09 11:00:03,455 INFO Course syllabus are:
+2022-11-09 11:00:03,455 INFO Introduction to NLP
+2022-11-09 11:00:03,455 INFO Roadmap of NLP
+2022-11-09 11:00:03,455 INFO NLTK
+2022-11-09 11:00:03,455 INFO Stanford NLP
+2022-11-09 11:00:03,455 INFO Spacy
+2022-11-09 11:00:03,455 INFO Gensim
+2022-11-09 11:00:03,455 INFO Tokenization
+2022-11-09 11:00:03,463 INFO Stemming And Lemmatization
+2022-11-09 11:00:03,463 INFO Bag of Words in NLP
+2022-11-09 11:00:03,464 INFO TFIDF
+2022-11-09 11:00:03,464 INFO Word Embedding
+2022-11-09 11:00:03,464 INFO Word2vec
+2022-11-09 11:00:03,464 INFO Implementation of spam classifier using python
+2022-11-09 11:00:03,464 INFO Finding course requirements of/course/NLP-Foundations
+2022-11-09 11:00:03,472 INFO Course requirements are:
+2022-11-09 11:00:03,472 INFO System with Internet Connection
+2022-11-09 11:00:03,472 INFO Interest to learn
+2022-11-09 11:00:03,472 INFO Dedication
+2022-11-09 11:00:03,472 INFO Finding course mentor of/course/NLP-Foundations
+2022-11-09 11:00:03,480 INFO Course mentors are:
+2022-11-09 11:00:03,480 INFO Krish Naik
+2022-11-09 11:00:03,667 INFO inside if block
+2022-11-09 11:00:03,763 INFO created cursor
+2022-11-09 11:00:03,763 INFO created database 
+2022-11-09 11:00:03,778 INFO inside else
+2022-11-09 11:00:03,778 INFO inside finally
+2022-11-09 11:00:05,881 INFO 127.0.0.1 - - [09/Nov/2022 11:00:05] "[37mPOST /result HTTP/1.1[0m" 200 -
+2022-11-09 11:06:27,160 INFO https://ineuron.ai/category/DEEP-LEARNING/
+2022-11-09 11:06:37,413 INFO Finding price of/course/PyTorch-Basics
+2022-11-09 11:06:37,422 INFO Could not find price of course:/course/PyTorch-Basics
+2022-11-09 11:06:37,422 INFO Finding course_features of
+2022-11-09 11:06:37,430 INFO Course features are:
+2022-11-09 11:06:37,430 INFO Learning of different concepts of PyTorch framework 
+
+2022-11-09 11:06:37,430 INFO Self Paced Videos
+2022-11-09 11:06:37,430 INFO Completion Certificate
+2022-11-09 11:06:37,430 INFO Finding course introduction/course/PyTorch-Basics
+2022-11-09 11:06:37,438 INFO Course introduction is:This program is meant to give you the basics till an advanced understanding of one of the most popular deep learning python frameworks - PyTorch. Course curriculum includes concepts about the PyTorch framework, tutorials, and much more!
+2022-11-09 11:06:37,438 INFO Finding course_syllabus of/course/PyTorch-Basics
+2022-11-09 11:06:37,446 INFO Course syllabus are:
+2022-11-09 11:06:37,446 INFO Basic concepts
+2022-11-09 11:06:37,446 INFO Installation
+2022-11-09 11:06:37,446 INFO PyTorch usecases
+2022-11-09 11:06:37,446 INFO Apply PyTorch to implement DL or ML algos from scratch
+2022-11-09 11:06:37,446 INFO Finding course requirements of/course/PyTorch-Basics
+2022-11-09 11:06:37,454 INFO Course requirements are:
+2022-11-09 11:06:37,454 INFO Interest to learn
+2022-11-09 11:06:37,454 INFO Deep learning ANN course
+2022-11-09 11:06:37,454 INFO Deep learning concepts
+2022-11-09 11:06:37,454 INFO Decent internet connection
+2022-11-09 11:06:37,454 INFO Finding course mentor of/course/PyTorch-Basics
+2022-11-09 11:06:37,462 INFO Course mentors are:
+2022-11-09 11:06:37,462 INFO Sunny Bhaveen Chandra
+2022-11-09 11:06:39,546 INFO Finding price of/course/JAX
+2022-11-09 11:06:39,554 INFO Could not find price of course:/course/JAX
+2022-11-09 11:06:39,554 INFO Finding course_features of
+2022-11-09 11:06:39,554 INFO Course features are:
+2022-11-09 11:06:39,554 INFO Roadmap
+2022-11-09 11:06:39,554 INFO Interview Questions and their approach discussions
+2022-11-09 11:06:39,554 INFO Learn solving Scenario-based questions
+2022-11-09 11:06:39,554 INFO Improve your skills and knowledge by solving different types of questions
+2022-11-09 11:06:39,554 INFO Assignments
+2022-11-09 11:06:39,554 INFO Quizzes
+2022-11-09 11:06:39,562 INFO Challenges
+2022-11-09 11:06:39,562 INFO Completion certificate
+2022-11-09 11:06:39,563 INFO Finding course introduction/course/JAX
+2022-11-09 11:06:39,563 INFO Course introduction is:JAX
+2022-11-09 11:06:39,563 INFO Finding course_syllabus of/course/JAX
+2022-11-09 11:06:39,571 INFO Course syllabus are:
+2022-11-09 11:06:39,571 INFO Basic understanding of digital marketing tools
+2022-11-09 11:06:39,571 INFO Search engine optimization techniques
+2022-11-09 11:06:39,571 INFO How to work on Google ads
+2022-11-09 11:06:39,571 INFO Social media marketing on various platforms
+2022-11-09 11:06:39,571 INFO Email marketing using Mailchimp
+2022-11-09 11:06:39,571 INFO Content creations like written, graphics and video
+2022-11-09 11:06:39,571 INFO Finding course requirements of/course/JAX
+2022-11-09 11:06:39,571 INFO Course requirements are:
+2022-11-09 11:06:39,571 INFO Understanding of basic marketing terminologies
+2022-11-09 11:06:39,571 INFO A system with internet connection
+2022-11-09 11:06:39,571 INFO Dedication
+2022-11-09 11:06:39,571 INFO Finding course mentor of/course/JAX
+2022-11-09 11:06:39,571 INFO Course mentors are:
+2022-11-09 11:06:39,571 INFO Boktiar Ahmed Bappy
+2022-11-09 11:06:44,423 INFO Finding price of/course/Deep-Learning-Foundations
+2022-11-09 11:06:44,439 INFO Could not find price of course:/course/Deep-Learning-Foundations
+2022-11-09 11:06:44,439 INFO Finding course_features of
+2022-11-09 11:06:44,439 INFO Course features are:
+2022-11-09 11:06:44,439 INFO Course material
+2022-11-09 11:06:44,439 INFO Course resources
+2022-11-09 11:06:44,439 INFO On demand recorded videos
+2022-11-09 11:06:44,439 INFO Practical exercises
+2022-11-09 11:06:44,439 INFO Quizzes
+2022-11-09 11:06:44,448 INFO Assignments
+2022-11-09 11:06:44,448 INFO Course completion certificate
+2022-11-09 11:06:44,448 INFO Finding course introduction/course/Deep-Learning-Foundations
+2022-11-09 11:06:44,453 INFO Course introduction is:Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks. It is a function that imitates the workings of the human brain in processing data and creating patterns for use in decision making. Learn Deep Learning, Transfer Learning and Neural Networks using the latest frameworks. Become a Deep Learning Guru!
+2022-11-09 11:06:44,453 INFO Finding course_syllabus of/course/Deep-Learning-Foundations
+2022-11-09 11:06:44,453 INFO Course syllabus are:
+2022-11-09 11:06:44,453 INFO Foundations of Deep Learning
+2022-11-09 11:06:44,453 INFO Artificial Neural Networks
+2022-11-09 11:06:44,453 INFO Convolution Neural networks
+2022-11-09 11:06:44,453 INFO Natural Language Processing
+2022-11-09 11:06:44,453 INFO RNN
+2022-11-09 11:06:44,453 INFO LSTM
+2022-11-09 11:06:44,453 INFO Finding course requirements of/course/Deep-Learning-Foundations
+2022-11-09 11:06:44,461 INFO Course requirements are:
+2022-11-09 11:06:44,461 INFO System with Internet Connection
+2022-11-09 11:06:44,461 INFO Interest to learn
+2022-11-09 11:06:44,461 INFO Dedication
+2022-11-09 11:06:44,461 INFO Finding course mentor of/course/Deep-Learning-Foundations
+2022-11-09 11:06:44,469 INFO Course mentors are:
+2022-11-09 11:06:44,469 INFO Krish Naik
+2022-11-09 11:08:37,505 INFO Finding price of/course/ONNX
+2022-11-09 11:08:37,514 INFO Could not find price of course:/course/ONNX
+2022-11-09 11:08:37,514 INFO Finding course_features of
+2022-11-09 11:08:37,522 INFO Course features are:
+2022-11-09 11:08:37,522 INFO Could not find course features of course:/course/ONNX
+2022-11-09 11:08:37,522 INFO Finding course introduction/course/ONNX
+2022-11-09 11:08:37,530 INFO Course introduction is:The Open Neural Network Exchange (ONNX) is a free ecosystem that allows AI developers to select the best tools for their projects as they progress. ONNX is a free, open-source format for AI models, including deep learning and classical machine learning.
+2022-11-09 11:08:37,530 INFO Finding course_syllabus of/course/ONNX
+2022-11-09 11:08:37,538 INFO Course syllabus are:
+2022-11-09 11:08:37,538 INFO Could not find course syllabus of course:/course/ONNX
+2022-11-09 11:08:37,538 INFO Finding course requirements of/course/ONNX
+2022-11-09 11:08:37,538 INFO Course requirements are:
+2022-11-09 11:08:37,538 INFO Could not find course requirements of course:/course/ONNX
+2022-11-09 11:08:37,546 INFO Finding course mentor of/course/ONNX
+2022-11-09 11:08:37,546 INFO Course mentors are:
+2022-11-09 11:08:37,546 INFO Boktiar Ahmed Bappy
+2022-11-09 11:08:37,718 INFO inside if block
+2022-11-09 11:08:37,752 INFO created cursor
+2022-11-09 11:08:37,757 INFO created database 
+2022-11-09 11:08:37,770 INFO inside else
+2022-11-09 11:08:37,770 INFO inside finally
+2022-11-09 11:08:40,001 INFO 127.0.0.1 - - [09/Nov/2022 11:08:40] "[37mPOST /result HTTP/1.1[0m" 200 -
+2022-11-09 11:43:44,371 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-11-09 11:44:28,107 INFO 127.0.0.1 - - [09/Nov/2022 11:44:28] "[37mGET / HTTP/1.1[0m" 200 -
+2022-11-09 11:44:28,216 INFO 127.0.0.1 - - [09/Nov/2022 11:44:28] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+2022-11-09 11:44:28,259 INFO 127.0.0.1 - - [09/Nov/2022 11:44:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-09 11:44:38,195 INFO https://ineuron.ai/category/TABLEAU/
+2022-11-09 11:44:47,986 INFO Finding price of/course/Tableau-Course
+2022-11-09 11:44:47,994 INFO Could not find price of course:/course/Tableau-Course
+2022-11-09 11:44:47,994 INFO Finding course_features of
+2022-11-09 11:44:48,002 INFO Course features are:
+2022-11-09 11:44:48,010 INFO Course material
+2022-11-09 11:44:48,010 INFO Course resources
+2022-11-09 11:44:48,010 INFO On demand recorded videos
+2022-11-09 11:44:48,010 INFO Practical exercises
+2022-11-09 11:44:48,010 INFO Quizzes
+2022-11-09 11:44:48,010 INFO Assignments
+2022-11-09 11:44:48,010 INFO Course completion certificate
+2022-11-09 11:44:48,010 INFO Finding course introduction/course/Tableau-Course
+2022-11-09 11:44:48,010 INFO Course introduction is:The demand for effective, accessible, and actionable interfaces grows daily as enterprises gather more and more critical data. New business intelligence tools like Tableau drastically decrease the time and technical knowledge necessary to extract insights from data and present them in a style that is easily understood by the end user. In this course, you will learn to harness the power of Tableau for every step in the dashboard building process.
+2022-11-09 11:44:48,010 INFO Finding course_syllabus of/course/Tableau-Course
+2022-11-09 11:44:48,025 INFO Course syllabus are:
+2022-11-09 11:44:48,025 INFO Tableau Vs Excel
+2022-11-09 11:44:48,027 INFO Pie Chart
+2022-11-09 11:44:48,027 INFO Data Types in Tableau
+2022-11-09 11:44:48,027 INFO Scatter Plot
+2022-11-09 11:44:48,027 INFO Finding course requirements of/course/Tableau-Course
+2022-11-09 11:44:48,027 INFO Course requirements are:
+2022-11-09 11:44:48,027 INFO System with Internet Connection
+2022-11-09 11:44:48,027 INFO Interest to learn
+2022-11-09 11:44:48,027 INFO Dedication
+2022-11-09 11:44:48,035 INFO Finding course mentor of/course/Tableau-Course
+2022-11-09 11:44:48,035 INFO Course mentors are:
+2022-11-09 11:44:48,035 INFO Pawan Lalwani
+2022-11-09 11:44:54,274 INFO Finding price of/course/Tableau
+2022-11-09 11:44:54,283 INFO Could not find price of course:/course/Tableau
+2022-11-09 11:44:54,283 INFO Finding course_features of
+2022-11-09 11:44:54,291 INFO Course features are:
+2022-11-09 11:44:54,291 INFO Challenges  
+2022-11-09 11:44:54,291 INFO Downloadable Resources 
+2022-11-09 11:44:54,291 INFO Quizzes
+2022-11-09 11:44:54,291 INFO Assignments in each module
+2022-11-09 11:44:54,291 INFO Completion certificate
+2022-11-09 11:44:54,291 INFO Finding course introduction/course/Tableau
+2022-11-09 11:44:54,299 INFO Course introduction is:Tableau enables critical decision-makers to learn how to display data and uncover data patterns such as customer purchase behaviour, sales trends, or production bottlenecks. This course will cover all of Tableau's capabilities that allow you to explore, experiment with, prepare, and present data fast and beautifully throughout an organisation, and we'll walk you through the entire process so you can make an impact and join the industry.
+2022-11-09 11:44:54,299 INFO Finding course_syllabus of/course/Tableau
+2022-11-09 11:44:54,316 INFO Course syllabus are:
+2022-11-09 11:44:54,316 INFO Tableau desktop installation
+2022-11-09 11:44:54,316 INFO Connecting Tableau with a variety of data sources, including excel and CSV files.
+2022-11-09 11:44:54,316 INFO Creating interactive dashboard
+2022-11-09 11:44:54,316 INFO  Creating data stories
+2022-11-09 11:44:54,316 INFO Generating business insights
+2022-11-09 11:44:54,316 INFO Finding course requirements of/course/Tableau
+2022-11-09 11:44:54,324 INFO Course requirements are:
+2022-11-09 11:44:54,324 INFO Tableau account
+2022-11-09 11:44:54,324 INFO No prior expertise in any visualization tool is required
+2022-11-09 11:44:54,324 INFO A system with internet connection
+2022-11-09 11:44:54,324 INFO Your dedication
+2022-11-09 11:44:54,324 INFO Finding course mentor of/course/Tableau
+2022-11-09 11:44:54,332 INFO Course mentors are:
+2022-11-09 11:44:54,332 INFO Satyajit Pattnaik
+2022-11-09 11:44:57,956 INFO Finding price of/course/Tableau-Foundation
+2022-11-09 11:44:57,956 INFO Could not find price of course:/course/Tableau-Foundation
+2022-11-09 11:44:57,956 INFO Finding course_features of
+2022-11-09 11:44:57,964 INFO Course features are:
+2022-11-09 11:44:57,973 INFO Lifetime Dashboard
+2022-11-09 11:44:57,973 INFO Free Course
+2022-11-09 11:44:57,973 INFO Assignment
+2022-11-09 11:44:57,973 INFO Quiz
+2022-11-09 11:44:57,973 INFO Finding course introduction/course/Tableau-Foundation
+2022-11-09 11:44:57,973 INFO Course introduction is:Tableau is a powerful and fastest growing data visualization tool used in the Business Intelligence Industry. It helps in simplifying raw data into the very easily understandable format. Tableau software is one of the fastest growing data visualization tools which is currently being used in the BI industry. It is the best way to change or transform the raw set of data into an easily understandable format with zero technical skills and coding knowledge.
+2022-11-09 11:44:57,973 INFO Finding course_syllabus of/course/Tableau-Foundation
+2022-11-09 11:44:57,981 INFO Course syllabus are:
+2022-11-09 11:44:57,982 INFO Tableau tools
+2022-11-09 11:44:57,982 INFO Practical implementation 
+2022-11-09 11:44:57,982 INFO Tableau complete understanding
+2022-11-09 11:44:57,982 INFO Finding course requirements of/course/Tableau-Foundation
+2022-11-09 11:44:57,990 INFO Course requirements are:
+2022-11-09 11:44:57,990 INFO Computer with Internet Connectivity
+2022-11-09 11:44:57,990 INFO Basic programing understanding
+2022-11-09 11:44:57,991 INFO Finding course mentor of/course/Tableau-Foundation
+2022-11-09 11:44:57,991 INFO Course mentors are:
+2022-11-09 11:44:57,991 INFO Amit Bose
+2022-11-09 11:44:58,232 INFO inside if block
+2022-11-09 11:44:58,288 INFO created cursor
+2022-11-09 11:44:58,296 INFO created database 
+2022-11-09 11:44:58,313 INFO inside else
+2022-11-09 11:44:58,313 INFO inside finally
+2022-11-09 11:45:00,480 INFO 127.0.0.1 - - [09/Nov/2022 11:45:00] "[37mPOST /result HTTP/1.1[0m" 200 -

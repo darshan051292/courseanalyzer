@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import logging
 import mysql.connector as conn
+from flask_cors import CORS,cross_origin
 
 mylist = []
 mydb = conn.MySQLConnection()
@@ -15,7 +16,6 @@ logging.basicConfig(filename="scrapper.log", level=logging.INFO, format="%(ascti
 # helper function
 def get_course_name():
     search = request.form['course']
-
     return search
 
 
@@ -47,12 +47,14 @@ def insertdb():
 
 # API
 @app.route('/', methods=['GET'])
+@cross_origin()
 def home():
     return render_template('home.html')
 
 
 # API
 @app.route('/result', methods=['POST'])
+@cross_origin()
 def resultfunction():
     global mylist
     mylist = []
@@ -181,4 +183,4 @@ def resultfunction():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port = 8002)

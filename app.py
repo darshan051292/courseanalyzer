@@ -181,7 +181,7 @@ def resultfunction():
                 mylist.append(mydict)
 
             browser.close()
-            insertdb()
+            #insertdb()
             return render_template('results.html', mylist=mylist)
 
         else:

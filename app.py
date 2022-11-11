@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import logging
 import mysql.connector as conn
-from flask_cors import CORS,cross_origin
-
+from flask_cors import cross_origin
+import os
 
 mylist = []
 mydb = conn.MySQLConnection()
@@ -57,21 +57,27 @@ def home():
 @app.route('/result', methods=['POST'])
 @cross_origin()
 def resultfunction():
+
+
     global mylist
     mylist = []
     courses_html = None
     courses = None
-    browser = None
     beautiful_course_html = None
 
     try:
         if request.method == 'POST':
             search = get_course_name()
             formatted_search = search.upper().replace(" ", "-")
-            search_link = "https://ineuron.ai/category/" + formatted_search + "/"
+            search_link = "https://ineuron.ai/category/" + formatted_search
             logging.info(search_link)
             try:
-                browser = webdriver.Chrome(executable_path=r"C:\Users\Darshan\PycharmProjects\coursescraper\chromedriver.exe")
+                chrome_options = webdriver.ChromeOptions()
+                chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+                chrome_options.add_argument("--headless")
+                chrome_options.add_argument("--disable-dev-shm-usage")
+                chrome_options.add_argument("--no-sandbox")
+                browser = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
                 browser.get(search_link)
                 courses_html = browser.page_source
             except Exception as e:
@@ -95,8 +101,10 @@ def resultfunction():
                 course_mentor_name = []
                 course_link = "https://ineuron.ai" + course.a['href']
                 try:
+
                     browser.get(course_link)
                     course_html = browser.page_source
+
                     try:
                         beautiful_course_html = BeautifulSoup(course_html, 'html.parser')
                     except Exception as e:
